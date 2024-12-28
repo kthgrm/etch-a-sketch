@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin-inline: auto;
+    width: 900px;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+.square{
+    border: 1px solid black;
+}
+
